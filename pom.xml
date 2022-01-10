@@ -39,7 +39,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.1</version>
                 <configuration>
-                    <warName>task_8</warName>
+                    <warName>api</warName>
                 </configuration>
             </plugin>
 
@@ -58,10 +58,10 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <url>http://localhost:8085/manager/text</url>
-                    <username>tomcat</username>
-                    <password>tomcat</password>
-                    <warFile>target\task_8.war</warFile>
+                    <url>http://localhost:8080/manager/text</url>
+                    <username>admin</username>
+                    <password>admin</password>
+                    <warFile>target\api.war</warFile>
                 </configuration>
             </plugin>
         </plugins>
