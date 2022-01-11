@@ -59,7 +59,7 @@
                 </executions>
                 <configuration>
                     <url>http://localhost:8080/manager/text</url>
-                    <username>admin</username>
+                    <username>adminscript</username>
                     <password>admin</password>
                     <warFile>target\api.war</warFile>
                 </configuration>
