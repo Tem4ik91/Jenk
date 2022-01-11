@@ -58,8 +58,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <url>http://localhost:8080/manager/text</url>
-                    <username>adminscript</username>
+                    <url>http://localhost:8080/manager/</url>
+                    <username>admin</username>
                     <password>admin</password>
                     <warFile>target\api.war</warFile>
                 </configuration>
